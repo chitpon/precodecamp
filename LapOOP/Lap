@@ -1,0 +1,38 @@
+class UserTemplate {
+    constructor (name,password,age,date){
+        this.name = name
+        this.password = password
+        this.age = age
+        this.date = date
+        this.connection = false
+    }
+
+    login(){
+        this.connection = true 
+        console.log('you connection status :', this.connection)
+    }
+    <!-- เพิ่ม Method logout  -->
+    logout(){
+        this.connection = false
+        console.log('you connection status :', this.connection)
+    }
+
+     เพิ่ม Method ในการเช็คสถานะ 
+    CheckStatus(this.connection){
+        if (this.connection == true){
+            console.log('you connection status : true')
+        }
+
+        if else  if (this.connection == false){
+            console.log('you connection status : flase ')
+        }
+}
+
+        <!-- เพิ่มวันที่ในการเก็บข้อมูลของ User -->
+User1 = new UserTemplate('Chitpon','123','25','15/05/2563') 
+User2 = new UserTemplate('Wallpa','111','28','01/05/2563')
+User3 = new UserTemplate('sataporn','222','19','12/04/2563')
+User4 = new UserTemplate('piyangkoon','333','27','19/02/2563')
+User5 = new UserTemplate('nantapong','444','36','28/03/2563')
+
+
