@@ -1,28 +1,64 @@
+<!DOCTYPE html>
 <html>
 <head>
 <title>Page Title</title>
 </head>
 <body>
 
-<h1>Doctype มีหน้าที่อะไร</h1>
-<p><html>
-<head>
-</head>
-<body>
+<h1>DOCTYPE html </h1>
+<p>มีหน้าที่อะไร</p>
 
-<h1>This is a Heading</h1>
 <p>เป็นแท็กที่บอกให้เว็บบราวเซอร์รู้ว่าหน้าเว็บเป็นหน้าเว็บแบบไหน <br>
     และควรจะใช้กฏเกณฑ์ไหนในการแสดงผลบนหน้าจอให้ถูกต้องที่สุด <br>
     ซึ่งจะมีส่วนช่วยให้การเขียน CSS แสดงผลได้ถูกต้องมากยิ่งขึ้น</p>
 
-    <h1> ความต่างของแทร็ค</h1>
+    <h1> tooltip ด้วย Html </h1>
+    <p> div class="tooltip">Hover over me</p>
+    <p> .tooltip { <br>
+        position: relative ; <br>
+        display: inline-block;  <br>
+        border-bottom: 1px dotted black; <br>
+      }</p>
 
-<!-- คำสั่งสำหรับการสลับตำแหน่งตัวอักษร -->
+    <table>
+        <table style="border-style: dashed" BORDER=4>
+            <CAPTION>
+                <h1>ความต่างของ Tag</h1>
+            </CAPTION>
+            <TR>
+                <TH> ชื่อ </TH>
+                <TH> คือ </TH>
+                <TH>ตัวอย่างการแสดง</TH>
+            </TR>
+        
+            <TR>
+                <TD>  Tag b </TD>
+                <TD> ความหมายและการใช้งานแท็ก b ระบุข้อความตัวหนาโดยไม่มีความสำคัญเป็นพิเศษ</TD>
+                <TD > <b> Example </b></TD>
+            </TR>
+    
+            <TR>
+                <TD> Tag i </TD>
+                <TD> แท็ก i กำหนดส่วนของข้อความในเสียงหรืออารมณ์ทางเลือก <br> โดยทั่วไปเนื้อหาภายในจะแสดงเป็นตัวเอียง </TD>
+                <th> <i>Example</i></th>
+            </TR>
+
+            <TR>
+                <TD> tag strong </TD>
+                <TD> แท็ก strong ใช้เพื่อกำหนดข้อความที่มีความสำคัญมาก <br> โดยทั่วไปเนื้อหาภายในจะแสดงเป็นตัวหนา </TD>
+                <th><strong>Example</strong></th>
+            </TR>
+
+            <TR>
+                <TD> tag em </TD>
+                <TD> แท็ก em ใช้เพื่อกำหนดข้อความที่เน้น โดยทั่วไปเนื้อหาภายในจะแสดงเป็นตัวเอียง </TD>
+                <th> <em>Example</em></th>
+            </TR>
+    
+    </table>
+<br><br>
+    <h1> คำสั่งสำหรับการสลับตำแหน่งตัวอักษร </h1>
 <p>1 2 3 4 5 6 7 8 9 </p>
 <bdo dir="rtl"> 1 2 3 4 5 6 7 8 9 </bdo>
-
-</body>
-</html></p>
-
 </body>
 </html>
